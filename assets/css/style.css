@@ -1,5 +1,3 @@
-
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -418,7 +416,22 @@ h6 {
   border: 2px solid #fff;
   color: #fff;
 }
-#hero .btn-get-started:hover {
+
+.btn-get-started {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 10px 28px;
+  transition: 0.5s;
+  border: 2px solid #000;
+  color: #000;
+}
+
+#hero .btn-get-started:hover,
+.btn-get-started:hover {
   background: #cc1616;
   border-color: #cc1616;
 }
@@ -650,6 +663,12 @@ section {
 .services .icon-box:hover h4 a,
 .services .icon-box:hover p {
   color: #fff;
+}
+
+.cta-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*--------------------------------------------------------------
