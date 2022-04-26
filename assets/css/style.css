@@ -432,6 +432,7 @@ h6 {
 
 #hero .btn-get-started:hover,
 .btn-get-started:hover {
+  color: white;
   background: #cc1616;
   border-color: #cc1616;
 }
@@ -555,8 +556,8 @@ section {
   margin: 20px 0;
   color: #191919;
 }
-.why-us .box p {
-  color: #aaaaaa;
+.why-us .box p, .why-us .box ol {
+  color: rgb(86, 86, 86);
   font-size: 15px;
   margin: 0;
   padding: 0;
@@ -568,7 +569,7 @@ section {
 }
 .why-us .box:hover span,
 .why-us .box:hover h4,
-.why-us .box:hover p {
+.why-us .box:hover p, .why-us .box:hover ol {
   color: #fff;
 }
 
